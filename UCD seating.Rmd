@@ -1,0 +1,78 @@
+---
+title: "Student Sit In"
+author: "your name here"
+date: "10/26/2019"
+output: 
+  html_document:
+    toc: true
+    number_sectons: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# ONE SHOT assignment!
+this is an extra credit assignment, must be completed Monday Oct 28, turn-in closes at midnight!
+
+## Problem statement: 
+Students at UCD- is there a relation between where one sits and one's major? 
+
+## Introduction  
+Data from this study came from... 
+
+
+
+```{r include=FALSE, echo=FALSE}
+library(tigerstats)
+data(Ucdavis1)
+
+```
+
+$H_0$: there is no relationship between one's major and where one sits in a class   
+$H_A$: where one sits in class and one's major are related  
+
+<!-- Get the data: !-->
+
+names of the data in the data frame
+
+```{r echo=FALSE}
+UCDdataframe = data.frame(seat=ucdavis1$Seat, major=ucdavis1$class, data=ucdavis1)
+names(UCDdataframe)
+```
+
+## Data summary
+
+**Graphical summary**
+put the graphic description of the data here
+
+```{r}
+
+```
+
+Explain what the graph shows
+
+
+**Numerical summary**
+put numerical summary here
+
+```{r}
+
+```
+
+Explain what the numeric summary says
+
+## Inferential Results
+put the inferential test for the the null hypothesis here
+
+```{r}
+
+```
+
+what is the p-value?
+
+## Results and conclusions
+
+explain the result
+
+<!-- explain-- is there evidence that certain majors tend to sit in particular areas of the class?  !-->
