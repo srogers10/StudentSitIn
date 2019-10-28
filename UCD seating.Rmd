@@ -19,6 +19,9 @@ this is an extra credit assignment, must be completed Monday Oct 28, turn-in clo
 Students at UCD- is there a relation between where one sits and one's major? 
 
 ## Introduction  
+
+<!-- where is the data found?  Is this and experiment or observational study?  !-->
+
 Data from this study came from... 
 
 
@@ -40,6 +43,12 @@ names of the data in the data frame
 UCDdataframe = data.frame(seat=ucdavis1$Seat, major=ucdavis1$class, data=ucdavis1)
 names(UCDdataframe)
 ```
+## Methods
+
+<!--  describe analysis methods here 
+what are the variable types, and indicate gaphical, numerical, and inferential methods appropriate
+for this question  !--> 
+
 
 ## Data summary
 
@@ -73,6 +82,6 @@ what is the p-value?
 
 ## Results and conclusions
 
-explain the result
+<!-- explain-- is there evidence that certain majors tend to sit in particular areas of the class?  Can the results of this test be generalized to all majors in all universities? !-->
 
-<!-- explain-- is there evidence that certain majors tend to sit in particular areas of the class?  !-->
+explain the result, can the result be generalized?
