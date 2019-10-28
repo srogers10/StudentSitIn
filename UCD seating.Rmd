@@ -85,3 +85,15 @@ what is the p-value?
 <!-- explain-- is there evidence that certain majors tend to sit in particular areas of the class?  Can the results of this test be generalized to all majors in all universities? !-->
 
 explain the result, can the result be generalized?
+
+<!--
+push results to your github account, turn in the URL
+
+If you did not fork my repo to your github account,
+create a repository in your github account for this project, get the URL for that repo and 
+(in the terminal window..)
+
+$git remote add origin URL_of_your_github_repo
+$git push -u origin master
+
+!-->
