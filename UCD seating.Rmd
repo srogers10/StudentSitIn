@@ -89,6 +89,8 @@ explain the result, can the result be generalized?
 <!--
 push results to your github account, turn in the URL
 
+--OR--
+
 If you did not fork my repo to your github account,
 create a repository in your github account for this project, get the URL for that repo and 
 (in the terminal window..)
