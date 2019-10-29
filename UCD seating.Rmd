@@ -20,7 +20,7 @@ Students at UCD- is there a relation between where one sits and one's major?
 
 ## Introduction  
 
-<!-- where is the data found?  Is this and experiment or observational study?  !-->
+<!-- where is the data found?  Is this an experiment or an observational study?  !-->
 
 Data from this study came from... 
 
@@ -28,7 +28,7 @@ Data from this study came from...
 
 ```{r include=FALSE, echo=FALSE}
 library(tigerstats)
-data(Ucdavis1)
+data(ucdavis1)
 
 ```
 
